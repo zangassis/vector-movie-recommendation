@@ -24,7 +24,7 @@ This is a sample vector search implementation using native EF 9 and Cosmos DB ca
    ```
 3. **Restore dependencies**:
    ```bash
-   dotnet restrore
+   dotnet restore
    ```
 4. **Update Cosmos DB connection string**:
   - Open `appsettings.json`
