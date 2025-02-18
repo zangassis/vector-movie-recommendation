@@ -15,21 +15,29 @@ This is a sample vector search implementation using native EF 9 and Cosmos DB ca
 ## 🛠️ Installation
 
 1. **Clone the repository**:
+   
    ```bash
    git clone https://github.com/zangassis/vector-movie-recommendation.git
    ```
+   
 2. **Navigate to the project directory**:
+   
    ```bash
    cd vector-movie-recommendation
    ```
+   
 3. **Restore dependencies**:
+   
    ```bash
    dotnet restore
    ```
+   
 4. **Update Cosmos DB connection string**:
   - Open `appsettings.json`
   - Replace the placeholder in `CosmosDb:AccountEndpoint` and `CosmosDb:AccountKey` with your Azure Cosmos DB connection details
+    
 5. **Run the application**:
+   
    ```bash
    dotnet run
    ```
